@@ -1,0 +1,23 @@
+START| WAKE_UP, CONTINUE_SLEEPING| Sunrise, birds chirping, the alarm clock starts ringing. It is a wonderful Monday morning and you have a 9L class. Do you a) wake up or b) continue your dreams?
+
+CONTINUE_SLEEPING| WAKE_UP, DONT_CARE| Last chance, the alarm continue to go off. Do you a) finally quit the magnificent dream you had with your crush and wake up or b) not even pay any attention to the alarm and got to witness a happy ending with your crush?
+
+DONT_CARE|| You miss the class and lose attendance points. The end.
+
+WAKE_UP| RUN_TO_CLASS, BREAKFAST, SELF_CARE| Oops, you wake up late. There is only 20 minutes for you to prepare and the class is on the other side of the campus. Do you a) run straight to class in your pyjamas or b) go get breakfast or c) go brush your teeth and wash your face?
+
+RUN_TO_CLASS| EMBARRASSED, SYMPATHY, IGNORANT| You got to class right on time. However, you look ugly, messy, hungry and the whole class is looking at you oddly. Do you a) get embarrassed and get out the door or b) explain your case to the professor or c) just go in there and sit down beautifully?
+
+EMBARRASSED| BREAKFAST, SELF_CARE| You got out of class. Since you feel ugly and hungry, do you a) go get breakfast to survive the next two classes or b) go back to your dorm and brush your smelly teeth and wash your dirty face?
+
+BREAKFAST|| You survived through the next two classes in your day. However you still look ugly and lose attendance points of the 9L. The end.
+
+SELF_CARE|| You look somewhat prettier but you cannot survive through the second class of the day which is CS1 due to the workload and the fact that you are hungry. Thus, looks don't matter. The end.
+
+SYMPATHY| EAT_COOKIE, NOT_EAT_COOKIE| You have successfully proved to your professors and your friends that you really care about your education and that you take this seriously. You sit down with pride and a random desk mate was inspired by your act and is being nice by offering you his cookies that he left from his breakfast. You are so hungry and you need to survive through the class. Do you a) eat the cookies or b) acting sus because you want to raise your price and not take the cookie?
+
+IGNORANT|| You sit down and act like nothing happen (as you should). You just proved that you do not care how others think about you and that you are confident in yourself even though you are ugly and hungry. However, you cannot even get through half of the class due to feeling dizzy facing all these math problems when you are hungry. You passed out. The end.
+
+EAT_COOKIE|| You ate the cookie and survived through the class. However, you still look ugly but at least you made friends. You continue your day as normal and did not fail the test. Congrats! The end.
+
+NOT_EAT_COOKIE|| You thought you just raised your price but you actually just made him think you being cocky and hated you. And you are still hungry and ugly. You died the next minute because you cannot withstand no more hate and cruel the world has been treating you. The end.
